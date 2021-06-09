@@ -29,16 +29,17 @@ body {
     cursor: pointer !important;
 }
 
+.navelement a {
+    color: cornsilk;
+    text-decoration: none;
+}
+
 .navselected{
     background: #686868 !important;
 }
 
 .navelement:hover {
     background: #222222;
-}
-
-.hidden {
-    visibility: hidden !important;
 }
 
 .content {
@@ -49,23 +50,4 @@ body {
     font-size: 1.8rem;
     margin: 0;
     padding: 0;
-}
-
-#home {
-    position: fixed;
-}
-
-#abou {
-    visibility: hidden;
-    position: fixed;
-}
-
-#proj {
-    visibility: hidden;
-    position: fixed;
-}
-
-#cont {
-    visibility: hidden;
-    position: fixed;
 }
