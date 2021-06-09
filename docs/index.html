@@ -2,35 +2,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Lone Development Studio</title>
-    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <link href="res/css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="res/css/projects.css" rel="stylesheet" type="text/css"/>
     <link href="res/altLogo.ico" rel="icon"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <meta content="#000000" name="theme-color"/>
 </head>
 <body>
 
-<div class="navbar">
+<div id="navbar">
     <ul class="navlist">
-        <li class="navelement navselected" id="nav home" onclick="setSelectedTab('home')"><a>Home</a></li>
+        <li class="navelement navselected" id="nav home" onclick="setSelectedTab('home')"><a>News</a></li>
         <li class="navelement" id="nav abou" onclick="setSelectedTab('abou')"><a>About</a></li>
         <li class="navelement" id="nav proj" onclick="setSelectedTab('proj')"><a>Projects</a></li>
         <li class="navelement" id="nav cont" onclick="setSelectedTab('cont')"><a>Contact</a></li>
     </ul>
 </div>
-<div>
+<div class="content">
     <div class="" id="home">
-        home
+        news
     </div>
     <div class="" id="abou">
         about
     </div>
     <div class="" id="proj">
-        projects
+        <div class="projectlist">
+            <ul>
+                <li class="projectelement">
+                    <div>
+                        <p class="heading">Lone Development Discord Bot</p>
+                        <p>
+                            Lone Development Discord Bot is bot that moderates the Lone Development discord server.
+                        </p>
+                    </div>
+                </li>
+                <li class="projectelement">
+                    <div>
+                        <p class="heading">Smart Home System</p>
+                    </div>
+                </li>
+                <li class="projectelement">
+                    <div>
+                        <p class="heading">Planatary Survivor</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="" id="cont">
         contact
     </div>
 </div>
-<script src="javascript.js"></script>
+<script src="res/js/javascript.js"></script>
 </body>
 </html>

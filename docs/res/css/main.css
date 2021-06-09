@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-.navbar {
+#navbar {
     padding: 0;
     margin: 0;
 }
@@ -16,6 +16,7 @@ body {
     padding: 0;
     margin: 0;
     min-height: 36px;
+    max-height: 36px;
     background: #424242;
 }
 
@@ -40,6 +41,16 @@ body {
     visibility: hidden !important;
 }
 
+.content {
+    margin: 8px;
+}
+
+.heading {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+}
+
 #home {
     position: fixed;
 }
@@ -49,12 +60,12 @@ body {
     position: fixed;
 }
 
-#cont {
+#proj {
     visibility: hidden;
     position: fixed;
 }
 
-#proj {
+#cont {
     visibility: hidden;
     position: fixed;
 }
