@@ -20,6 +20,11 @@ body {
     background: #424242;
 }
 
+.navlist li a {
+    color: cornsilk;
+    text-decoration: none;
+}
+
 .navelement {
     float: left;
     display: block;
@@ -27,11 +32,7 @@ body {
     text-align: center;
     text-decoration: none;
     cursor: pointer !important;
-}
-
-.navelement a {
-    color: cornsilk;
-    text-decoration: none;
+    min-width: 92px;
 }
 
 .navselected{
@@ -50,4 +51,14 @@ body {
     font-size: 1.8rem;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 450px){
+    .navelement {
+        min-width: calc( (100vw / 4) - 16px);
+        max-width: calc( (100vw / 4) - 16px);
+        text-align: center;
+    }
+
+
 }
