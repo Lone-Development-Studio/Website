@@ -20,5 +20,9 @@
 
 .projectelement div h3 {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Calibri, sans-serif !important;
+}
+
+.icons {
+
 }
